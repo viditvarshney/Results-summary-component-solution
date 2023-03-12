@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Results component</title>
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custum CSS -->
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Outer container -->
+    <div class="container outer-box center-div">
+      <div class="row sub-box center-div">
+        <!-- Result Component -->
+        <div class="col-lg-6 result">
+          <p class="your-result">Your Result</p>
+          <div class="circle center-div">
+            <p class="marks">76</p>
+            <p class="marks-outof">of 100</p>
+          </div>
+          <p class="great">Great</p>
+          <p class="compliment">
+            You scored higher than 65% of <br />the people who have taken<br />
+            these tests.
+          </p>
+        </div>
+        <!-- Summary Component -->
+        <div class="col-lg-6 summary-box">
+          <p class="summary">Summary</p>
+
+          <ul class="list-group">
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center li-box li-box-reaction"
+            >
+              <div>
+                <img
+                  src="./assets/images/icon-reaction.svg"
+                  alt="reaction-icon"
+                  class="svg-icon"
+                />
+                Reaction
+              </div>
+              <p class="summary-marks">
+                <strong>80</strong><span class="summary-outof"> / 100</span>
+              </p>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center li-box li-box-memory"
+            >
+              <div>
+                <img
+                  src="./assets/images/icon-memory.svg"
+                  alt="memory-icon"
+                  class="svg-icon"
+                />
+                Memory
+              </div>
+              <p class="summary-marks">
+                <strong>92</strong><span class="summary-outof"> / 100</span>
+              </p>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center li-box li-box-verbal"
+            >
+              <div>
+                <img
+                  src="./assets/images/icon-verbal.svg"
+                  alt="verbal-icon"
+                  class="svg-icon"
+                />
+                Verbal
+              </div>
+              <p class="summary-marks">
+                <strong>61</strong><span class="summary-outof"> / 100</span>
+              </p>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center li-box li-box-visual"
+            >
+              <div>
+                <img
+                  src="./assets/images/icon-visual.svg"
+                  alt="visual-icon"
+                  class="svg-icon"
+                />
+                Visual
+              </div>
+              <p class="summary-marks">
+                <strong>72</strong><span class="summary-outof"> / 100</span>
+              </p>
+            </li>
+            <button class="btn btn-lg btn-primary continue-btn" type="submit">
+              Continue
+            </button>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://www.frontendmentor.io/profile/viditvarshney"
+        target="_blank"
+        >Vidit</a
+      >.
+    </div>
+  </body>
+</html>
