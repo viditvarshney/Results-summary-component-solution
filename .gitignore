@@ -4,11 +4,7 @@
 #####################################################
 *.sketch
 *.fig
-./assets/fonts
-./design
-data.json
-README-template.md
-style-guide.md
+
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################
@@ -19,3 +15,9 @@ style-guide.md
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+
+assets/fonts/
+design/
+data.json
+README-template.md
+style-guide.md

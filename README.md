@@ -25,6 +25,10 @@ Users should be able to:
 
 ![](./assets/images/screenshot.png)
 
+### Mobile View
+
+![](./assets/images/mobile-ss.png)
+
 ## My process
 
 ### Built with
